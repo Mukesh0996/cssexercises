@@ -478,6 +478,62 @@ input:hover {
   background: #2196f3;
 }
 
+.shapes {
+  margin-left: 1rem;
+  padding: 1rem;
+  background: #fff;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+
+
+.shapes .circle {
+  width: 100px;
+  height: 100px;
+  background: #475569;
+  border-radius: 50%;
+  position: relative;
+}
+
+.shapes .square {
+  width: 100px;
+  height: 100px;
+  background: #475569;
+  position: relative;
+}
+
+.shapes .oval {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  background: #475569;
+}
+
+.shapes .triangle {
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+
+ /* .text {
+  position: absolute;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 16px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+} */
 @keyframes loading {
   from{
     background-position: -7% 0;
